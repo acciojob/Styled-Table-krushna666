@@ -1,1 +1,36 @@
 /* your code */
+  body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #1f5a94;
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th:first-child,
+        td:first-child {
+            text-align: left;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e6e6e6;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #d3d3d3;
+        }
